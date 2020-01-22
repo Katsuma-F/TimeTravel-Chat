@@ -1,31 +1,26 @@
+$main-color: #f185b3;
+$black-part: #45454d;
+$white-part: #fff;
+
 .navbar {
-    background-color: #fff;
-    border-bottom: 1px solid rgba(0, 0, 0, .0975);
-    height: 77px;
-    &__brand {
-        height: 65px;
-        width: 210px;
-        background-size: 220px;
+    background-color: $black-part !important;
+
+    .btn:hover, .btn:focus,
+    .btn:active, .btn:active:focus, .btn:active:hover, .btn:active.focus,
+    .btn.active, .btn.active:focus, .btn.active:hover, .btn.active.focus,
+    .open > .dropdown-toggle.btn,
+    .open > .dropdown-toggle.btn:hover,
+    .open > .dropdown-toggle.btn:focus,
+    .open > .dropdown-toggle.btn.focus,
+    .btn.disabled:hover, .btn[disabled]:hover, fieldset[disabled] .btn:hover,
+    .btn.disabled:focus, .btn[disabled]:focus, fieldset[disabled] .btn:focus,
+    .btn.disabled.focus, .btn[disabled].focus, fieldset[disabled] .btn.focus {
+        background: $main-color !important; //ボタンの上にポインタを持ってきたり、クリックしたりした時の背景色
+        color: $white-part !important; //ボタンの上にポインタを持ってきたり、クリックしたりした時のテキストの色
     }
-    &__mainLogo {
-        background-repeat: no-repeat;
-        background-image: url("/images/logo.png");
-    }
-    &-nav {
-        & > li {
-            margin-left: 20px;
-            &:first-child {
-                margin-left: 0;
-            }
-            .commonNavIcon {
-                height: 24px;
-                width: 24px;
-                background-size: 22px !important;
-                background-repeat: no-repeat;
-            }
-            .profile-icon {
-                background-image: url("/images/parts3.png");
-            }
-        }
+
+    .btn-outline-success {
+        color: $main-color !important;
+        border-color: $main-color !important;
     }
 }

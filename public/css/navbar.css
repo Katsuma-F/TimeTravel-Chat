@@ -1,29 +1,11 @@
 .navbar {
-  background-color: #fff;
-  border-bottom: 1px solid rgba(0, 0, 0, .0975);
-  height: 77px;
+  background-color: #45454d !important;
 }
-.navbar__brand {
-  height: 65px;
-  width: 210px;
-  background-size: 220px;
+.navbar .btn:hover, .navbar .btn:focus, .navbar .btn:active, .navbar .btn:active:focus, .navbar .btn:active:hover, .navbar .btn:active.focus, .navbar .btn.active, .navbar .btn.active:focus, .navbar .btn.active:hover, .navbar .btn.active.focus, .navbar .open > .dropdown-toggle.btn, .navbar .open > .dropdown-toggle.btn:hover, .navbar .open > .dropdown-toggle.btn:focus, .navbar .open > .dropdown-toggle.btn.focus, .navbar .btn.disabled:hover, .navbar .btn[disabled]:hover, .navbar fieldset[disabled] .btn:hover, .navbar .btn.disabled:focus, .navbar .btn[disabled]:focus, .navbar fieldset[disabled] .btn:focus, .navbar .btn.disabled.focus, .navbar .btn[disabled].focus, .navbar fieldset[disabled] .btn.focus {
+  background: #f185b3 !important;
+  color: #fff !important;
 }
-.navbar__mainLogo {
-  background-repeat: no-repeat;
-  background-image: url("/images/logo.png");
-}
-.navbar-nav > li {
-  margin-left: 20px;
-}
-.navbar-nav > li:first-child {
-  margin-left: 0;
-}
-.navbar-nav > li .commonNavIcon {
-  height: 24px;
-  width: 24px;
-  background-size: 22px !important;
-  background-repeat: no-repeat;
-}
-.navbar-nav > li .profile-icon {
-  background-image: url("/images/parts3.png");
+.navbar .btn-outline-success {
+  color: #f185b3 !important;
+  border-color: #f185b3 !important;
 }

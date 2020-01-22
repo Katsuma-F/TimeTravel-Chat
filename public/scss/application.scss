@@ -1,1 +1,14 @@
 @import "navbar";
+@import "footer";
+
+body {
+    background-color: #fbf4f9;
+    font-family: 'Helvetica Neue','Helvetica','Arial',sans-serif;
+}
+
+.wrapper {
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 120px;
+    box-sizing: border-box; //全て含めてmin-height:100vhに
+}
