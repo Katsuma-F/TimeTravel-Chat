@@ -7,7 +7,7 @@
         </button>
         <a class="navbar-brand" href="#">
             <img src="{{ asset('/images/main_icon.png') }}" width="30" height="30" class="d-inline-block align-top" alt="メインアイコン">
-            TimeTravel-Chat
+            リクエスト上映チャット
         </a>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">

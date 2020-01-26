@@ -6,7 +6,7 @@
         <a href="#">Service</a>
         <a href="#">Contact Us</a>
     </ul>
-    <p>© All rights reserved by TimeTravel-Chat.</p>
+    <p>© All rights reserved by リクエスト上映チャット.</p>
 </footer>
 
 @endsection
