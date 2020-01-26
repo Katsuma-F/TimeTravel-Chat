@@ -6,7 +6,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand" href="#">
-            <img src="{{ asset('/images/logo.png') }}" width="30" height="30" class="d-inline-block align-top" alt="メインロゴ">
+            <img src="{{ asset('/images/main_icon.png') }}" width="30" height="30" class="d-inline-block align-top" alt="メインアイコン">
             TimeTravel-Chat
         </a>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">

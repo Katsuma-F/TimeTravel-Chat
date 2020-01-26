@@ -1,10 +1,10 @@
 @section('footer')
 <footer>
     <ul class="footer-menu">
-        <li>Home  | </li>
-        <li>About  | </li>
-        <li>Service  | </li>
-        <li>Contact Us  | </li>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Service</a>
+        <a href="#">Contact Us</a>
     </ul>
     <p>© All rights reserved by TimeTravel-Chat.</p>
 </footer>
