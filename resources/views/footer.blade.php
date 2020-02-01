@@ -8,5 +8,4 @@
     </ul>
     <p>© All rights reserved by リクエスト上映チャット.</p>
 </footer>
-
 @endsection
