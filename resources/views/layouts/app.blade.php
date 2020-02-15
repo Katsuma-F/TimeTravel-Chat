@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ app()->getLocale() }}">
 <head>
-    <title>{{ config('app.name', 'TimeTravel-Chat') }}</title>
+    <title>{{ config('app.name', 'リクエスト上映チャット') }}</title>
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
